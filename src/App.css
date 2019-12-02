@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 100px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+.List {
+  width: 100%;
+  border: 1px solid #DDD;
+  margin-top: 15px;
+  font: 300 13px/15px helvetica, arial, verdana, sans-serif;
+}
+
+.List button {
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.row {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /*padding: 0 25px;*/
+  border-bottom: 1px solid #e0e0e0;
+}
